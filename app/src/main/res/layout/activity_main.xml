@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:focusable="true"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context="com.example.android.futuresound.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/artwork"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="10dp"
+            android:contentDescription="@string/album_image"
+            android:src="@drawable/artworks_armin" />
+
+        <TextView
+            android:id="@+id/artist_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/artwork"
+            android:paddingEnd="50dp"
+            android:text="@string/title_of_the_song"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            tools:ignore="RtlSymmetry" />
+
+        <TextView
+            android:id="@+id/tv_artist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/artist_title"
+            android:layout_toEndOf="@id/artwork"
+            android:text="@string/Artist"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/time_duration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:text="@string/time_duration"
+            tools:ignore="RelativeOverlap" />
+
+        <ImageView
+            android:id="@+id/iv_play_active"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@id/time_duration"
+            android:contentDescription="@string/play_button"
+            android:src="@drawable/ic_play_circle_outline_black"
+            android:visibility="visible" />
+
+        <ImageView
+            android:id="@+id/artwork2_image"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/artwork"
+            android:layout_marginTop="20dp"
+            android:contentDescription="@string/album_image"
+            android:src="@drawable/artworks_armin2" />
+
+        <TextView
+            android:id="@+id/artist_title2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="70dp"
+            android:layout_toEndOf="@+id/artwork2_image"
+            android:paddingEnd="50dp"
+            android:text="@string/Artist_2_name"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            tools:ignore="RtlSymmetry" />
+
+        <TextView
+            android:id="@+id/artist_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/artist_title2"
+            android:layout_toEndOf="@id/artwork"
+            android:text="@string/Artist"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/time_duration2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="60dp"
+            android:text="@string/time_duration"
+            tools:ignore="RelativeOverlap" />
+
+        <ImageView
+            android:id="@+id/iv_play_active2"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@id/time_duration2"
+            android:contentDescription="@string/play_button"
+            android:src="@drawable/ic_play_circle_outline_black"
+            android:visibility="visible" />
+
+        <ImageView
+            android:id="@+id/artwork3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/artwork2_image"
+            android:layout_marginTop="20dp"
+            android:contentDescription="@string/album_image"
+            android:src="@drawable/artworks_trance" />
+
+        <TextView
+            android:id="@+id/artist_title3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="140dp"
+            android:layout_toEndOf="@+id/artwork2_image"
+            android:paddingEnd="50dp"
+            android:text="@string/Album_3_name"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            tools:ignore="RtlSymmetry" />
+
+        <TextView
+            android:id="@+id/artist_nam3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/artist_title3"
+            android:layout_toEndOf="@id/artwork"
+            android:text="@string/Artist"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/time_duration3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="125dp"
+            android:text="@string/time_duration"
+            tools:ignore="RelativeOverlap" />
+
+        <ImageView
+            android:id="@+id/iv_play_active3"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@id/time_duration3"
+            android:contentDescription="@string/play_button"
+            android:src="@drawable/ic_play_circle_outline_black"
+            android:visibility="visible" />
+
+        <ImageView
+            android:id="@+id/artwork5"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/artwork4"
+            android:layout_marginTop="20dp"
+            android:contentDescription="@string/album_image"
+            android:src="@drawable/artworks_dash" />
+
+        <TextView
+            android:id="@+id/artist_title4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="280dp"
+            android:layout_toEndOf="@+id/artwork4"
+            android:paddingEnd="50dp"
+            android:text="@string/music_si_life"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            tools:ignore="RtlSymmetry" />
+
+        <TextView
+            android:id="@+id/artist_nam5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/artist_title4"
+            android:layout_toEndOf="@id/artwork"
+            android:text="@string/dash_berlin"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/time_duration4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="265dp"
+            android:text="@string/time_duration"
+            tools:ignore="RelativeOverlap" />
+
+        <ImageView
+            android:id="@+id/iv_play_active4"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@id/time_duration4"
+            android:contentDescription="@string/play_button"
+            android:src="@drawable/ic_play_circle_outline_black"
+            android:visibility="visible" />
+
+        <ImageView
+            android:id="@+id/artwork4"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/artwork3"
+            android:layout_marginTop="20dp"
+            android:contentDescription="@string/album_image"
+            android:src="@drawable/artworks_house" />
+
+        <TextView
+            android:id="@+id/artist_title5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="210dp"
+            android:layout_toEndOf="@+id/artwork4"
+            android:paddingEnd="50dp"
+            android:text="@string/Album_4_name"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            tools:ignore="RtlSymmetry" />
+
+        <TextView
+            android:id="@+id/artist_nam4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/artist_title5"
+            android:layout_toEndOf="@id/artwork"
+            android:text="@string/Artist_4_name"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/time_duration5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="195dp"
+            android:text="@string/time_duration"
+            tools:ignore="RelativeOverlap" />
+
+        <ImageView
+            android:id="@+id/iv_play_active5"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@id/time_duration5"
+            android:contentDescription="@string/play_button"
+            android:src="@drawable/ic_play_circle_outline_black"
+            android:visibility="visible" />
+
+        <ImageView
+            android:id="@+id/artwork6"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/artwork5"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="20dp"
+            android:contentDescription="@string/album_image"
+            android:src="@drawable/artworks_dash2" />
+
+        <TextView
+            android:id="@+id/artist_title6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="355dp"
+            android:layout_toEndOf="@+id/artwork"
+            android:paddingEnd="50dp"
+            android:text="@string/Album_6_name"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            tools:ignore="RtlSymmetry" />
+
+        <TextView
+            android:id="@+id/tv_artist6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/artist_title6"
+            android:layout_toEndOf="@id/artwork"
+            android:text="@string/dash_berlin"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/time_duration6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="340dp"
+            android:text="@string/time_duration"
+            tools:ignore="RelativeOverlap" />
+
+        <ImageView
+            android:id="@+id/iv_play_active6"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@id/time_duration6"
+            android:contentDescription="@string/play_button"
+            android:src="@drawable/ic_play_circle_outline_black"
+            android:visibility="visible" />
+
+        <ImageView
+            android:id="@+id/artwork7"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/artwork6"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="20dp"
+            android:contentDescription="@string/album_image"
+            android:src="@drawable/artwork_trance2" />
+
+        <TextView
+            android:id="@+id/artist_title7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="420dp"
+            android:layout_toEndOf="@+id/artwork"
+            android:paddingEnd="50dp"
+            android:text="@string/Albuma_7_name"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            tools:ignore="RtlSymmetry" />
+
+        <TextView
+            android:id="@+id/tv_artist7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/artist_title7"
+            android:layout_toEndOf="@id/artwork"
+            android:text="@string/trance_allstars"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/time_duration7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="410dp"
+            android:text="@string/time_duration"
+            tools:ignore="RelativeOverlap" />
+
+        <ImageView
+            android:id="@+id/iv_play_active7"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@id/time_duration7"
+            android:contentDescription="@string/play_button"
+            android:src="@drawable/ic_play_circle_outline_black"
+            android:visibility="visible" />
+
+        <ImageView
+            android:id="@+id/artwork8"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/artwork7"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="20dp"
+            android:contentDescription="@string/album_image"
+            android:src="@drawable/artworks_psy_trance" />
+
+        <TextView
+            android:id="@+id/artist_title8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="495dp"
+            android:layout_toEndOf="@+id/artwork"
+            android:paddingEnd="50dp"
+            android:text="@string/Album_8_name"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            tools:ignore="RtlSymmetry" />
+
+        <TextView
+            android:id="@+id/tv_artist8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/artist_title8"
+            android:layout_toEndOf="@id/artwork"
+            android:text="@string/emperium"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/time_duration8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="480dp"
+            android:text="@string/time_duration"
+            tools:ignore="RelativeOverlap" />
+
+        <ImageView
+            android:id="@+id/iv_play_active8"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@id/time_duration8"
+            android:contentDescription="@string/play_button"
+            android:src="@drawable/ic_play_circle_outline_black"
+            android:visibility="visible" />
+
+    </RelativeLayout>
+</ScrollView>

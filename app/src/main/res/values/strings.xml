@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Future Sound</string>
+    <string name="title">Title</string>
+    <string name="title_of_the_song">Club Embrace</string>
+    <string name="Artist">Armin van Buuren</string>
+    <string name="time_duration">90:00</string>
+    <string name="album_image">album_image</string>
+    <string name="play_button">play_button</string>
+    <string name="Artist_2_name">Mirage</string>
+    <string name="Album_3_name">Main Stage Music</string>
+    <string name="Album_4_name">Revealed</string>
+    <string name="Artist_4_name">Hardwell</string>
+    <string name="music_si_life">Music is Life</string>
+    <string name="Album_6_name">We Are</string>
+    <string name="dash_berlin">Dash Berlin</string>
+    <string name="Albuma_7_name">Future Trance</string>
+    <string name="trance_allstars">Trance Allstars</string>
+    <string name="Album_8_name">Cosmic Dreams</string>
+    <string name="emperium">Emperium</string>
+    <string name="Sound_Activity">Album Tracks</string>
+    <string name="time_duration_song">3:25</string>
+    <string name="Album_Playing">Now Playing</string>
+    <string name="top_logo">logo</string>
+</resources>

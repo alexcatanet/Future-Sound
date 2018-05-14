@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/player_8"
+    android:clickable="true"
+    android:focusable="true"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context="com.example.android.futuresound.MainActivity">
+
+    <TextView
+        android:id="@+id/Header_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="180dp"
+        android:text="@string/Album_8_name"
+        android:textColor="@android:color/white"
+        android:textSize="28sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Header_text"
+        android:layout_centerHorizontal="true"
+        android:text="@string/emperium"
+        android:textColor="@android:color/background_light"
+        android:textSize="16sp" />
+
+
+</RelativeLayout>
