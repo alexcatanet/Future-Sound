@@ -1,6 +1,6 @@
 [![Build Status](https://travis-ci.org/alexcatanet/Future-Sound.svg?branch=master)](https://travis-ci.org/alexcatanet/Future-Sound)
 # Future Sound
-This project was developed within the internship program (Android Basics By Google Nanodegree).
+This project was developed within the scholarship program (Android Basics By Google Nanodegree).
 The goal was to design and layout the flow for the structure of a Music Player app. For this project, the app does not play music. 
 
 ## What I've learned:
